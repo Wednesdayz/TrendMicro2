@@ -424,3 +424,18 @@ body {
       padding-right:0px;
     }
   }
+  .ending-links a {
+    display: block;
+    color: #b0bac9;
+    text-decoration: underline;
+  }
+  .ending-links a:hover {
+    color: #74849b;
+    transition: ease-in-out 0.5s;
+  }
+  .ending-headings {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6b7c94;
+    margin-bottom: 0.8rem;
+  }
