@@ -1,72 +1,70 @@
-
 .header-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  width: 100%;
-  height: fixed;
-  background-color: #fff;
-  opacity: 0.98;
-  font-family: "Volte-Semibold",'Montserrat', sans-serif;
-  font-size: 18px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-}
-
-.last-nav-item{
-    padding-right: 30px !important;
-    border-right: 1px solid rgb(163, 177, 197);
-}
-
-.pre-nav {
-    height: 45%;
-    background: #d71920 !important;
-    color: white;
-  }
-  .pre-nav a {
-    color: white !important ;
-    text-decoration: none !important ;
-  }
-  .pre-nav a :hover {
-    text-decoration: none;
-  }
-
-nav li {
-    padding: 0 0 0 1.4rem;
-    font-weight: 600;
-    letter-spacing: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    height: fixed;
+    background-color: #fff;
+    opacity: 0.98;
+    font-family: "Volte-Semibold",'Montserrat', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   }
   
-  nav .nav-link {
-    color: #6b7c94;
-    font-size: 1.2rem;
+  .last-nav-item{
+      padding-right: 30px !important;
+      border-right: 1px solid rgb(163, 177, 197);
   }
   
-  nav .free-trial {
-    background-color: #c6366e;
-    margin-top: 1.5rem;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #fff;
-    border-radius: 30px;
-    padding: 0.5rem 1.4rem;
-    cursor: pointer;
-  }
+  .pre-nav {
+      height: 45%;
+      background: #d71920 !important;
+      color: white;
+    }
+    .pre-nav a {
+      color: white !important ;
+      text-decoration: none !important ;
+    }
+    .pre-nav a :hover {
+      text-decoration: none;
+    }
   
-  nav .free-trial:hover {
-    color:#fff;
-    background-color: #3e2559;
-    text-decoration: none;
-  }
+  nav li {
+      padding: 0 0 0 1.4rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    
+    nav .nav-link {
+      color: #6b7c94;
+      font-size: 1.2rem;
+    }
+    
+    nav .free-trial {
+      background-color: #c6366e;
+      margin-top: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 30px;
+      padding: 0.5rem 1.4rem;
+      cursor: pointer;
+    }
+    
+    nav .free-trial:hover {
+      color:#fff;
+      background-color: #3e2559;
+      text-decoration: none;
+    }
+    
+    nav .dropdown-item {
+      color: #6b7c94;
+      font-size: 1.3rem;
+    }
   
-  nav .dropdown-item {
-    color: #6b7c94;
-    font-size: 1.3rem;
-  }
-
-  .last-index-item {
-    padding-right: 30px !important;
-    border-right: 1px solid rgb(163, 177, 197);
-  }
-  
+    .last-index-item {
+      padding-right: 30px !important;
+      border-right: 1px solid rgb(163, 177, 197);
+    }

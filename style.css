@@ -70,7 +70,7 @@ body {
   h2.big,
   h3.big {
     margin-top: 30px;
-    padding: 100px 0 70px 0;
+    padding: 10px 0 0 0;
   }
   h3 a {
     color: #3e2559 !important;
@@ -436,4 +436,94 @@ body {
     text-transform: uppercase;
     color: #6b7c94;
     margin-bottom: 0.8rem;
+  }
+
+  .Knowledge-base {
+    font-size: 1.2rem;
+    color: #442958;
+    padding: 2rem 0;
+    margin: 1rem;
+  }
+  
+  .Knowledge-base h1 {
+    padding: 1rem 0;
+  }
+  
+  .service-button {
+    background-color: #c6366e;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1.1rem 2rem;
+    cursor: pointer;
+  }
+  
+  .service-button:hover {
+    color:#fff;
+    background-color: #c6366e;
+    text-decoration: none;
+  }
+  
+  ul,
+  li
+  {
+    list-style: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rule-id {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #442958;
+  }
+  
+  .rule-id:hover {
+    color:#442958;
+    text-decoration: underline;
+  }
+  
+  .rule-group {
+    font-size: 1.1rem;
+    color: #6b7c94;
+  }
+  
+  .rule-group:hover {
+    color: #6b7c94;
+    text-decoration: underline;
+  }
+  
+  .aws-tech-partner {
+    max-width: 200px;
+  }
+
+  .bottom p {
+    font-size: 1.2rem;
+    color: #6b7c94;
+    padding: 1.5rem 0;
+  }
+  
+  .bottom span {
+    color: #c6366e;
+    font-weight: 700;
+  }
+  
+  .bottom-button {
+    font-weight: 700;
+    background-color: #c6366e;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    padding: 1.1rem 5rem;
+    cursor: pointer;
+  }
+  
+  .bottom-button:hover {
+    color:#fff;
+    background-color: #c6366e;
+    text-decoration: none;
   }
