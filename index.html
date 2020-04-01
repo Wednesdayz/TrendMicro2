@@ -35,54 +35,92 @@
   </head>
   <body>
     <!-- Header nav part -->
-    <div class="header-wraper">
-      <nav class="fixed-nav-bar">
-        <div id="menu" class="menu">
-          <div class="dorp-menu-background"></div>
-          <div class="inner-menu">
-            <a class="logo" href="https://www.cloudconformity.com/">
-              <img
-                class="logo-img"
-                border="0"
-                src="https://www.cloudconformity.com/assets/logos/logo-trend-micro-white-3d6cf1e9f7d589290d7251b82a27dea28333c417bfad3b0e7f878f3fb8242a87.svg"
-                alt="Cloud Conformity"
-                height="30"
-            /></a>
-            <a class="show" href="#menu"
-              ><img style="max-width: 55px;" src="img/menu-hamburger.png" />
-            </a>
-            <a class="hide" href="#hidemenu"
-              ><img style="max-width: 55px;" src="img/menu-hamburger.png"
-            /></a>
-            <ul class="menu-items">
-                <li class="special-index-item">
-                    <a href="https://www.cloudconformity.com/conformity-rules/"
-                      >Knowledge Base</a>
-                  </li>
-                  
-              <li class="first-index-item">
-                <a href="https://www.cloudconformity.com/about-us.html"
-                  >About</a
-                >
-              </li>
-              <li class="last-index-item">
-                <a href="https://www.cloudconformity.com/pricing.html">Pricing</a>
-              </li>
-              <li class="sign-index-item">
-                <a href="https://www.cloudconformity.com/sign-in.html"
-                  >Sign in</a
-                >
-                <a
-                  href="https://www.cloudconformity.com/sign-up.html"
-                  title="sign up"
-                  ><button class="my-button">Free trial</button></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+    <!-- Navbar -->
+    <div class="header-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light pre-nav">
+        <a
+          href="https://www.trendmicro.com/en_us/business/products/hybrid-cloud/cloud-one-conformity.html"
+          target="_blank"
+          class="mx-auto"
+        >
+          <img
+            src="https://www.cloudconformity.com/assets/logos/logo-trend-micro-white-3d6cf1e9f7d589290d7251b82a27dea28333c417bfad3b0e7f878f3fb8242a87.svg"
+            height="30"
+          />
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <span class="hidden-sm">
+            Trend Micro acquires Cloud Conformity and is now included in
+          </span>
+          Trend Micro Cloud One&trade;
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </nav>
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img
+          src="https://www.cloudconformity.com/assets/logos/logo-trend-micro-conformity-a9f2ff7ece6ba93793cec22de96daeba86528b2f2b937e8efdebae20db47ffa5.svg"
+          alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" style="color:#3e2559" href="https://www.cloudconformity.com/knowledge-base/">Knowledge
+              Base <span class="sr-only">(current)</span></a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item"
+                href="https://www.cloudconformity.com/solutions/aws/security-compliance.html"><img
+                  src="https://www.cloudconformity.com/assets/logos/logo-product-aws-fe0bb3dcdf02e650014a823f03b13263b55b39a1ed4bc2449e01a74f7bf3d2d5.svg"
+                  alt="AWS"></a>
+              <a class="dropdown-item"
+                href="https://www.cloudconformity.com/solutions/azure/security-compliance.html"><img
+                  src="https://www.cloudconformity.com/assets/logos/logo-product-azure-25e59d27a8303021a6b7cfb01c4a25d9fa05c4b2c529bb2ee6364c771d119f41.svg"
+                  alt="Azure"></a>
+              <a class="dropdown-item"
+                href="https://www.cloudconformity.com/solutions/gcp/security-compliance.html"><img
+                  src="https://www.cloudconformity.com/assets/logos/logo-product-gcp-03f4a17f715b7b1fa75ea5ff8d803d8d81623fd1769eaaa0b07a3668531468e9.svg"
+                  alt="Google Cloud"></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.cloudconformity.com/about.html">About</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="last-nav-item">
+            <a class="nav-link" href="https://www.cloudconformity.com/pricing.html">Pricing</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.cloudconformity.com/identity/sign-in.html">Sign in</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item mt-1">
+            <a class="free-trial" href="https://www.cloudconformity.com/identity/sign-up.html">Free trial</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+</div>
       <!-- Body part -->
     <div class="body-wraper">
       <!-- body header section-->
@@ -105,9 +143,7 @@
                           <p>
                             Cloud Conformity is a continuous assurance tool that
                             provides peace of mind for your AWS infrastructure,
-                            delivering over 500 automated best practice checks
-                            across the five pillars of the AWS Well-Architected
-                            Framework.
+                            delivering over 520 automated best practice checks.
                           </p>
                         </div>
                       </div>
