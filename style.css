@@ -238,6 +238,7 @@ body {
     min-width: 300px;
   }
   .footer-wrap {
+      padding-bottom: 10px;
   }
   .partner {
     text-align: center;
