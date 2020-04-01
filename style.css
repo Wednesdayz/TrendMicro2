@@ -206,7 +206,7 @@ body {
     z-index: 0;
     max-width: 800px;
     position: relative;
-    border-bottom: 1px #6b7c94 solid;
+    border-bottom: 10px #6b7c94 solid;
   }
   .footer-section-medium-warp {
     background: url(https://www.cloudconformity.com/assets/images/line4.svg)
