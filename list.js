@@ -9,13 +9,19 @@ const getDatas = async () => {
     // Get data from Cloud Conformity Public Rules API
     const response = await axios.get(url);
     const { data } = response
+    function sortByKey(array, key) {
+      return array.sort(function (a, b) {
+            var x = a[key]; var y = b[key];
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+      });
+    }
+    sortByKey(data.data, 'id');
     return data
 
   } catch (error) {
     console.log(error);
   }
 };
-
 const displayDatas = async () => {
   const data = await getDatas();
   // Split data into 2 separate groups: AWS & Azure
