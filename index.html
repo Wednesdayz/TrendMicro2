@@ -1,70 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=Fetch, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- google font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Khula:800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="fixed-navigation-bar.css" />
-    <title>Cloud Conformity Exercise</title>
-  </head>
-  <body>
-    <!-- Header nav part -->
-    <!-- Navbar -->
-    <div class="header-wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light pre-nav">
-        <a
-          href="https://www.trendmicro.com/en_us/business/products/hybrid-cloud/cloud-one-conformity.html"
-          target="_blank"
-          class="mx-auto"
-        >
-          <img
-            src="https://www.cloudconformity.com/assets/logos/logo-trend-micro-white-3d6cf1e9f7d589290d7251b82a27dea28333c417bfad3b0e7f878f3fb8242a87.svg"
-            height="30"
-          />
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-          <span class="hidden-sm">
-            Trend Micro acquires Cloud Conformity and is now included in
-          </span>
-          Trend Micro Cloud One&trade;
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto' type='text/css'>
+  <link rel='stylesheet' href='style.css' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>Knowledge Base</title>
+</head>
+
+<body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light py-3">
     <div class="container-fluid">
       <a class="navbar-brand" href=""><img
@@ -105,7 +56,7 @@
             <a class="nav-link" href="https://www.cloudconformity.com/about.html">About</a>
           </li>
           <div class="dropdown-divider"></div>
-          <li class="last-nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="https://www.cloudconformity.com/pricing.html">Pricing</a>
           </li>
           <div class="dropdown-divider"></div>
@@ -120,83 +71,38 @@
       </div>
     </div>
   </nav>
-</div>
-      <!-- Body part -->
-    <div class="body-wraper">
-      <!-- body header section-->
-      <div class="grid-section content-page">
-        <div class="table-view">
-          <div class="wrp header">
-            <div>
-              <div class="table-wrap">
-                <div class="table-middle-wrap">
-                  <div class="table-middle-inner-wrap">
-                    <div class="row table-inner-wrap">
-                      <!--  Left side -->
-                      <div class="left-side col-lg-6">
-                        <h1 class="title">Knowledge base</h1>
-                      </div>
-                      <!-- Right side -->
-                      <div class="right-side col-lg-6">
-                        <!-- Heading summary -->
-                        <div>
-                          <p>
-                            Cloud Conformity is a continuous assurance tool that
-                            provides peace of mind for your AWS infrastructure,
-                            delivering over 520 automated best practice checks.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="number-nav2">
-                    <div class="">
-                      <!-- small nav -->
-                      <div class="nav-wrp">
-                        <div class="small-nav">
-                          <span class="small-nav-span2"
-                            ><a
-                              href="https://www.cloudconformity.com/conformity-rules/"
-                              >Knowledge base</a
-                            ></span
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+  <!-- Knowledge Base banner -->
+  <div class="container-fluid py-5 article mt-3">
+    <div class="row py-5 mx-5">
+      <div class="col py-5">
+        <h1 class="display-4 text-white pl-5">Knowledge Base</h1>
       </div>
-      <!-- Intro-table section -->
-      <div class="grid-section">
-        <div class="grid copy small">
-          <h2 class="big ">Knowledge Base</h2>
-          <div>
-            <div>
-              <p>
-                <br />Along with continuous assurance of your infrastructure,
-                Cloud Conformity is an educational tool, providing detailed
-                resolution steps to rectify security vulnerabilities,
-                performance and cost inefficiencies, and reliability risks. The
-                combination of real time monitoring and simplified, readily
-                available remediation information enables organisations to
-                embrace DevOps, without the fear of introducing vulnerabilities
-                or reliability risks.
-              </p>
-              <p>
-                Below are the AWS services and their associated rules included
-                in the continuous assurance check by Cloud Conformity. New rules
-                are being developed every day so if there’s a particular rule or
-                service that isn’t covered, please get in touch with us and
-                we’ll add it to the list. <br />
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="col py-5">
+        <p class="lead pr-5">Cloud Conformity is a continuous assurance tool that provides peace of mind for
+          your
+          cloud
+          infrastructure, delivering over 520 automated best practice checks.</p>
       </div>
+    </div>
+  </div>
+
+  <!-- Knowledge base Introduction -->
+  <div class="container Knowledge-base">
+    <h1 class="display-4">Knowledge Base</h1>
+    <p class="lead">Along with continuous assurance of your infrastructure, Cloud Conformity is an educational tool,
+      providing
+      detailed resolution steps to rectify security vulnerabilities, performance and cost inefficiencies, and
+      reliability risks. The combination of real time monitoring and simplified, readily available remediation
+      information enables organisations to embrace DevOps, without the fear of introducing vulnerabilities or
+      reliability risks.
+      <br><br>
+
+      Below are the cloud providers, services and their associated rules included in the continuous assurance check by
+      Cloud Conformity. New rules are being developed every day so if there’s a particular rule or service that isn’t
+      covered, please get in touch with us and we’ll add it to the list.</p>
+  </div>
+
   <!-- Knowledge base Cards -->
   <div class="container pb-5 pt-3">
     <div class="card-group row">
@@ -284,141 +190,39 @@
       <span>Chat with us</span> to set up your onboarding session and start a free trial.</p>
     <a href="https://www.cloudconformity.com/knowledge-base/#chat" class="bottom-button">Let's Chat</a>
   </div>
-      <!-- Ruls listing section -->
-      <div class="grid-section">
-        <div id="grid" class="grid copy"><script src="List.js"></script></div>
+
+
+  <!-- Footer -->
+  <div class="container footer mb-5">
+    <div class="ml-auto mr-auto text-center mb-5">
+      <img class="aws-tech-partner"
+        src="https://www.cloudconformity.com/assets/aws-badge-156cf61e0b1747e489436be0082f82f31c9780e0acb3c926f2a0a9a06bc21aff.png"
+        alt="AWS Tech Partner">
+    </div>
+    <div class="row text-center">
+      <p class="col-6">© 2016 - 2020 Cloud Conformity Inc<br>Website version: v2.0.48<br>
+        Last update: 25 February 2020
+      </p>
+      <div class="social-links col-6 align-self-center">
+        <a href="https://www.linkedin.com/company/10621658/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://www.youtube.com/channel/UCmZ9akNGr6kqEuDwgFgFDkQ"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://twitter.com/cloudconformity"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://github.com/cloudconformity/"><i class="fab fa-github fa-2x"></i></a>
       </div>
-      <!-- footer section -->
-    
-    <hr class="post-footer-hr">
-        <div class="row mt-5 ">
-        <div class="col-4 text-left end-left-side">
-            <div class="d-flex flex-column"><img class="mb-3" src="https://www.cloudconformity.com/assets/aws-badge-156cf61e0b1747e489436be0082f82f31c9780e0acb3c926f2a0a9a06bc21aff.png" width="200" alt="">
-                <span class="mb-3 ml-2">
-                    © 2016 - 2020 <br> Cloud Conformity Inc.<br />
-                    Website version: v2.0.48<br />
-                    Last update: 25 February 2020
-                </span>
-                <div class="social">
-                    <a
-                    class="in"
-                    href="https://www.linkedin.com/company/10621658/"
-                    target="_blank"
-                    title="Cloud Conformity LinkedIn profile"
-                    ><img style="max-width: 30px;" src="img/linkedin.png"
-                    /></a>
-                    <a
-                    class="yt"
-                    href="https://www.youtube.com/channel/UCmZ9akNGr6kqEuDwgFgFDkQ"
-                    target="_blank"
-                    title="Cloud Conformity Videos"
-                    ><img style="max-width: 30px;" src="img/youtube.png"
-                    /></a>
-                    <a
-                    class="tw"
-                    href="https://twitter.com/cloudconformity"
-                    target="_blank"
-                    title="Our Twitter feed"
-                    ><img style="max-width: 30px;" src="img/twitter.png"
-                    /></a>
-                    <a
-                    class="git"
-                    href="https://github.com/cloudconformity/"
-                    target="_blank"
-                    title="Our Github"
-                    ><img style="max-width: 30px;" src="img/github.png"
-                    /></a>
-                </div>
-            </div>
-                <div class="social ml-2">
-                <a rel="noopener noreferrer" class="in" href="https://www.linkedin.com/company/10621658/" target="_blank"
-                    title="Cloud Conformity LinkedIn profile"></a>
-                <a rel="noopener noreferrer" class="yt" href="https://www.youtube.com/channel/UCmZ9akNGr6kqEuDwgFgFDkQ"
-                    target="_blank" title="Cloud Conformity Youtube channel"></a>
-                <a rel="noopener noreferrer" class="tw" href="https://twitter.com/cloudconformity" target="_blank"
-                    title="Cloud Conformity Twitter feed"></a>
-                <a rel="noopener noreferrer" class="gh" href="https://github.com/cloudconformity/" target="_blank"
-                    title="Cloud Conformity Github page"></a>
-                </div>
-        </div>
-        <div class="col-8 text-center ending-links">
-            
-            <div class="row text-left">
-            <div class="col"><div class="ending-headings">Products</div>
-            
-            <span><a href="https://www.cloudconformity.com/solutions/aws/security-compliance.html">Cloud Conformity for AWS</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/solutions/azure/security-compliance.html">Cloud Conformity for Azure</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/solutions/google-cloud/security-compliance.html">Cloud Conformity for Google Cloud</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/solutions/aws/auto-remediation.html">Auto-Remediation</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/pricing.html">Pricing</a></span></div>
-            <div class="col"><div class="ending-headings">Help</div>
-            <span><a id="chat-link" href="#chat">Start a Conversation</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/frequently-asked-questions.html">Frequently Asked Questions</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/help/">Self Help</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/knowledge-base/">Knowledge Base</a></span>
-            
-            <span><a href="https://github.com/cloudconformity/documentation-api">API Documentation</a></span></div>
-            <div class="col"><div class="ending-headings">Company</div>
-            
-            <span><a href="https://www.cloudconformity.com/about.html">About Us</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/careers.html">Careers</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/about.html#contact">Contact Us</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/customers">Customers</a></span></div>
-            
-            </div>
-            <div class="row text-left mt-5">
-            <div class="col"><div class="ending-headings">Compliance Standards</div>
-            
-            <span><a href="https://www.cloudconformity.com/compliance/CIS/">CIS</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/compliance/GDPR/">GDPR</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/compliance/HIPAA/">HIPAA</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/compliance/PCI-DSS/">PCI-DSS</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/compliance/NIST/">NIST 800-53 (Rev.4) </a></span></div>
-            <div class="col"><div class="ending-headings">Privacy and Protection</div>
-            
-            <span><a href="https://www.cloudconformity.com/terms-and-conditions.html">Terms and Conditions</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/privacy-policy.html">Privacy Policy</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/saas-agreement.html">SaaS Agreement</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/commitment-to-gdpr.html">Commitment to GDPR</a></span>
-            
-            <span><a href="https://www.cloudconformity.com/responsible-disclosure.html">Report a Security Vulnerability</a></span>
-            <div class="col"></div>
-            </div>
-        </div>
-        </div>
-    </hr>
-        </div>
-            <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"
-            ></script>
-            <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-            ></script>
-            <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"
-            ></script>
-        </body>
-    </html>
+    </div>
+  </div>
+
+
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
