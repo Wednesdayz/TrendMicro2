@@ -1,9 +1,11 @@
-const awsLCol = document.getElementById("aws-left");
-const awsRCol = document.getElementById("aws-right");
-const azureLCol = document.getElementById("azure-left");
-const azureRCol = document.getElementById("azure-right");
+const awsRCol = document.getElementById("aws-r");
+const awsLCol = document.getElementById("aws-l");
+const azureRCol = document.getElementById("azure-r");
+const azureLCol = document.getElementById("azure-l");
+
 
 const getDatas = async () => {
+  //Url to pull frrom
   const url = "https://ap-southeast-2.cloudconformity.com/v1/services";
   try {
     // Get data from Cloud Conformity Public Rules API
@@ -27,7 +29,7 @@ const displayDatas = async () => {
   // Split data into 2 separate groups: AWS & Azure
   const dataArrayAzure = data.data.filter(item => item.attributes.provider === "azure")
   const dataArrayAws = data.data.filter(item => item.attributes.provider === "aws")
-  // Display data from AWS
+  // Display data pulled from the public api that is part of AWS
   let rulesIdsAws = {};
   let dataIdsAws = []
 
@@ -45,11 +47,11 @@ const displayDatas = async () => {
         <a class="rule-id" href='https://www.cloudconformity.com/knowledge-base/aws/${dataIdsAws[i]}/' class='ruleGrplink'>${dataIdsAws[i]}</a>
       </li>
     </ul>
-  `
+  `//Ensure data is neatly split into two columns
     i < dataIdsAws.length / 2 ? awsLCol.innerHTML += html : awsRCol.innerHTML += html
   }
 
-  // Display data from Azure
+  // Display data pulled from the public api that is part of Azure
 
   let rulesIdsAzure = {}
   let dataIdsAzure = []
@@ -69,6 +71,7 @@ const displayDatas = async () => {
       </li>
     </ul>
   `
+  //Ensure data is neatly split into two columns
     i < dataIdsAzure.length / 2 ? azureLCol.innerHTML += html : azureRCol.innerHTML += html
   }
 

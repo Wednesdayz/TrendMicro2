@@ -9,7 +9,8 @@
   "author": "Wei",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^25.2.4"
+    "jest": "^25.2.4",
+    "prettier": "^2.0.2"
   },
   "dependencies": {
     "axios": "^0.19.2"
